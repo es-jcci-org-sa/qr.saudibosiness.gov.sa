@@ -1,31 +1,19 @@
 <!DOCTYPE html>
 <html lang="ar" translate="no" style="--base-font-size: 1rem;">
 <head>
-  <meta charset="UTF-8">
   <base href="./">
   <script>
 (function () {
-  var pathname = location.pathname;
-  var path = pathname.replace(/\/(?:index|404)\.html$/i, '/');
-  var root = path.replace(/\/viewcr\/?$/i, '/');
-  if (!root.endsWith('/')) root = root.slice(0, root.lastIndexOf('/') + 1);
-  root = root || '/';
-  window.__CLONED_DEPLOYMENT_BASE__ = root === '/' ? '' : root.replace(/\/$/, '');
-  var base = document.querySelector('base');
-  if (base) base.setAttribute('href', location.protocol === 'file:' ? new URL(root, location.href).href : root);
-  if (location.protocol !== 'file:' && /(?:^|[?&])nCrNumber=/.test(location.search) &&
-      [root, root + 'index.html', root + 'viewcr/index.html'].indexOf(pathname) !== -1) {
-    history.replaceState(history.state, '', root + 'viewcr/' + location.search + location.hash);
-  }
-  document.addEventListener('DOMContentLoaded', function () {
-    var notice = document.getElementById('local-preview-notice');
-    if (!notice) return;
-    function resize() {
-      document.documentElement.style.setProperty('--local-notice-height', notice.getBoundingClientRect().height + 'px');
-    }
-    resize();
-    if (window.ResizeObserver) new ResizeObserver(resize).observe(notice);
-  });
+  try {
+    var path = location.pathname.replace(/\/index\.html$/i, '');
+    // /repo/viewcr -> /repo/ ; /viewcr -> /
+    var withoutRoute = path.replace(/\/viewcr\/?$/i, '/');
+    if (!withoutRoute.endsWith('/')) withoutRoute = withoutRoute.slice(0, withoutRoute.lastIndexOf('/') + 1);
+    var root = withoutRoute || '/';
+    window.__CLONED_DEPLOYMENT_BASE__ = root === '/' ? '' : root.replace(/\/$/, '');
+    var base = document.querySelector('base');
+    if (base) base.setAttribute('href', root);
+  } catch (_) {}
 })();
 </script>
   <script src="js/data-router.js"></script>
@@ -295,21 +283,16 @@ document.addEventListener('click',function(event){var control=event.target&&even
 document.addEventListener('submit',function(event){var item=descriptor(event.target);if(item)activate(event,event.target,item)},false);
 window.__CLONED_RENDERED_CONTROLS__={descriptors:descriptors,installAttempts:1};
 })();</script>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>عارض بيانات محلي — نسخة تجريبية</title>
-  <link rel="stylesheet" href="css/assets/index-QVNIwH8F.css">
-  <link rel="stylesheet" href="css/local-preview.css">
+  <title>المركز السعودي للتنافسية والأعمال</title>
+  <link rel="stylesheet" crossorigin href="css/assets/index-QVNIwH8F.css">
   <link rel="icon" type="image/svg+xml" href="assets/favicons/selected-c3cb6f13de5226c2.svg">
-  <script defer src="js/offline-data.js"></script>
-  <script defer src="js/config/root/env.root--b7132ca431ca0e8d.js"></script>
-  <script defer src="js/env--b7132ca431ca0e8d.js"></script>
-  <script defer src="js/assets/index-CzTOOSTm.js"></script>
+  <script type="module" src="js/config/root/env.root--b7132ca431ca0e8d.js"></script>
+  <script type="module" src="js/env--b7132ca431ca0e8d.js"></script>
+  <script type="module" crossorigin src="js/assets/index-CzTOOSTm.js"></script>
 </head>
 <body class="rtl overflow-x-hidden">
-  <aside id="local-preview-notice" role="note">
-    <span>نسخة تجريبية محلية — ليست موقعًا حكوميًا ولا تصلح للتحقق الرسمي.</span>
-    <span lang="en">LOCAL DEMO — UNOFFICIAL DATA</span>
-  </aside>
   <div id="root"></div>
 </body>
 </html>
