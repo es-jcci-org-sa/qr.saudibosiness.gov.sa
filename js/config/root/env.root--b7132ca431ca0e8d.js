@@ -1,3 +1,4 @@
+(function () {
 const root = {
   root: {
     featuresFlag: {
@@ -10,20 +11,20 @@ const root = {
       showCancelPrint: true,
       showEfaaSection: false,
     },
-    siteKeyCaptcha: '6LfotGYqAAAAAPSp09_nsaQQ1lmJ0PdHcVH4qRtK',
+    siteKeyCaptcha: '',
     isDevelopment: false,
     auth: {
-      authority: 'https://www.saudibusiness.gov.sa',
+      authority: 'https://local-preview.invalid',
     },
     apis: {
       ip: {
-        gwId: '8b907aa5799863128483d1d4121b0930',
+        gwId: 'local-demo',
       },
       sc: {
-        api: 'https://api.saudibusiness.gov.sa/sbc/externalgw/servicecatalog',
+        api: (window.__CLONED_DEPLOYMENT_BASE__ || '') + '/local-api/unavailable',
       },
       notifications: {
-        api: 'https://api.saudibusiness.gov.sa/sbc/externalgw/notification',
+        api: (window.__CLONED_DEPLOYMENT_BASE__ || '') + '/local-api/unavailable',
       },
     },
     links: {
@@ -55,4 +56,6 @@ const root = {
 };
 
 window.env = { ...window.env, root };
-export default root;
+
+
+})();
