@@ -1,0 +1,214 @@
+{
+  "data": {
+    "crInformation": {
+      "isRestricted": false,
+      "crNationalNumber": "7006741974",
+      "crNumber": "5950020781",
+      "encryptedCrNumber": "VEFJSFMwSGRZVHNScmhaZk44THgydz09",
+      "ownerNameAr": null,
+      "ownerNameEn": null,
+      "ownerIdentifierNumber": null,
+      "ownerIdentifierTypeNameAr": null,
+      "ownerIdentifierTypeNameEn": null,
+      "versionNo": 5,
+      "entityFullNameAr": "شركة تليد وجديد لتجارة الجملة والتجزئة",
+      "entityFullNameEn": "Talid wa Jadid litijarat aljumla wal tajzia Company",
+      "capital": 500000,
+      "companyDuration": 0,
+      "isMain": true,
+      "mainCRNationalNumber": null,
+      "mainCRNumber": null,
+      "isLicenseBased": true,
+      "inLiquidationProcess": false,
+      "hasEcommerce": false,
+      "isListed": false,
+      "entityNameLang": {
+        "entityNameLangID": 1,
+        "entityNameLangDescAr": "اللغة العربية",
+        "entityNameLangDescEn": "Arabic Language"
+      },
+      "entityType": {
+        "entityTypeID": 1,
+        "entityTypeDescAr": "شركة",
+        "entityTypeDescEn": "Company"
+      },
+      "capitalCurrency": {
+        "capitalCurrencyID": 1,
+        "capitalCurrencyDescAr": "ريال سعودي",
+        "capitalCurrencyDescEn": "Saudi Riyal"
+      },
+      "companyForm": {
+        "companyFormID": 1,
+        "companyFormDescriptionAr": "ذات مسؤولية محدودة",
+        "companyFormDescriptionEn": "Limited liability company"
+      },
+      "companyCharacterList": [],
+      "partnersNationality": {
+        "partnersNationalityID": 4,
+        "partnersNationalityDescAr": "مختلطة",
+        "partnersNationalityDescEn": "Mixed"
+      },
+      "lastModificationDate": {
+        "lastModificationDateGregorian": "2026-05-12",
+        "lastModificationDateHijri": "25-11-1447"
+      },
+      "crIssueDate": {
+        "crIssueDateGregorian": "2012-01-23",
+        "crIssueDateHijri": "29-02-1433"
+      },
+      "crConfirmDate": {
+        "crConfirmDateGregorian": "2027-04-05",
+        "crConfirmDateHijri": "28-10-1448"
+      },
+      "crStatus": {
+        "crStatusID": 1,
+        "crStatusDescAr": "نشط",
+        "crStatusDescEn": "Active"
+      },
+      "crDeleteDate": null,
+      "crDeleteReasons": []
+    },
+    "crActivities": {
+      "fullActivitiesText": null,
+      "activitiesType": {
+        "activitiesTypeID": "2",
+        "activitiesTypeDescriptionAr": "Isic",
+        "activitiesTypeDescriptionEn": "Isic"
+      },
+      "activityList": [
+        {
+          "activityID": "451014",
+          "activityDescriptionAr": "البيع بالجملة والتجزئة لسيارات النقل الثقيل المستعملة (تريلات وهاف لوري)",
+          "activityDescriptionEn": "Wholesale and retail sale of used lorries including trailers and semi-trailers",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "453011",
+          "activityDescriptionAr": "البيع بالجملة والتجزئة لقطع الغيار الجديده للسيارات وتوابعها (وتشمل زينة السيارات)",
+          "activityDescriptionEn": "Wholesale and retail sale of new spare parts for cars and their accessories including car decorations",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "453012",
+          "activityDescriptionAr": "البيع بالجملة والتجزئة لقطع الغيار المستعملة للسيارات وتوابعها",
+          "activityDescriptionEn": "Wholesale and retail sale of used spare parts for cars and accessories",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "453032",
+          "activityDescriptionAr": "البيع بالجملة والتجزئة لقطع غيار الشاحنات والنقل الثقيل",
+          "activityDescriptionEn": "Wholesale and retail of truck parts and heavy transport",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "466994",
+          "activityDescriptionAr": "البيع بالجملة لقطع الغيار المستعملة وانتهاء عمرها الإفتراضي بعد تفكيكها للحصول على قطع غيار قابلة للاستخدام والاستفادة من بيعها للسيارات",
+          "activityDescriptionEn": "Wholesale of dismantled automobiles to obtain and re-sell usable parts",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        }
+      ]
+    },
+    "entityAddress": {
+      "addressType": {
+        "addressTypeID": "1",
+        "addressTypeDescriptionAr": "عنوان وطني",
+        "addressTypeDescriptionEn": "National Address"
+      },
+      "nationalAddress": {
+        "city": {
+          "cityId": "18",
+          "cityNameAr": "جدة",
+          "cityNameEn": "JEDDAH"
+        },
+        "district": {
+          "districtId": "10200018092",
+          "districtNameAr": "حي الجوهرة",
+          "districtNameEn": "Al Jawharah Dist."
+        },
+        "streetNameAr": "عبد الله بن معمر التيمي(رضي الله عنه)",
+        "streetNameEn": "Abdullah Ibn Muammar Al Taimy",
+        "buildingNo": "7378",
+        "unitNo": "6",
+        "postalCode": "22417",
+        "additionalNo": "4509"
+      },
+      "fullAddress": null
+    },
+    "capitalDetails": {
+      "contributionCapitalDetails": {
+        "capitalType": {
+          "capitalTypeID": 1,
+          "capitalTypeDescriptionAr": "نقدي",
+          "capitalTypeDescriptionEn": "Cash"
+        },
+        "cashCapital": 500000,
+        "inkindCapital": 0,
+        "totalCashContribution": 100,
+        "totalInkindContribution": 0,
+        "contributionValue": 5000
+      },
+      "stockCapitalDetails": null,
+      "stockList": []
+    },
+    "contactInformation": {
+      "phoneNo": "0111111111",
+      "mobileNo": "00966553635071",
+      "email": "Ahmedhadad213455@gmail.com",
+      "websiteURL": null
+    },
+    "mangmentInformation": {
+      "managementStructure": {
+        "managementStructureID": 2,
+        "managementStructureDescriptionAr": "مديران فأكثر",
+        "managementStructureDescriptionEn": "Two or More Managers"
+      },
+      "managerList": [
+        {
+          "managerRef": "-",
+          "identifierTypeId": 2,
+          "identifierNumber": "-",
+          "nationalityId": 111,
+          "isLicensed": false,
+          "managerType": {
+            "managerTypeID": 4,
+            "managerTypeDescriptionAr": "مقيم",
+            "managerTypeDescriptionEn": "Resident"
+          },
+          "personInfo": {
+            "identifierNo": "-",
+            "titleAr": null,
+            "titleEn": null,
+            "firstNameAr": "احمد",
+            "fatherNameAr": "عبدالله",
+            "grandFatherNameAr": "محمد الحداد",
+            "familyNameAr": "المصعبي",
+            "firstNameEn": "AHMED",
+            "fatherNameEn": "ABDULLAH",
+            "grandFatherNameEn": "MOHAMMED A",
+            "familyNameEn": "ALMASAABI",
+            "identifierType": {
+              "identifierTypeID": 2,
+              "identifierTypeDescAr": "هوية مقيم",
+              "identifierTypeDescEn": "Resident ID"
+            },
+            "nationality": {
+              "nationalityID": 111,
+              "nationalityDescriptionAr": "اليمن",
+              "nationalityDescriptionEn": "Yemen",
+              "isSaudi": false,
+              "isGulf": false
+            }
+          },
+          "managerPositionList": []
+        }
+      ]
+    },
+    "liquidatorList": []
+  },
+  "error": null
+}

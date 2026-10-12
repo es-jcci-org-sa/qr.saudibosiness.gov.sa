@@ -1,0 +1,181 @@
+{
+  "data": {
+    "crInformation": {
+      "isRestricted": false,
+      "crNationalNumber": "7017484846",
+      "crNumber": "4030384869",
+      "encryptedCrNumber": "Tzl1cytlRWR0c2FpUjJUcDAxc0N4UT09",
+      "ownerNameAr": "مها راجح ناصر الجهني",
+      "ownerNameEn": "MAHA RAJEH NASSER ALJOHANI",
+      "ownerIdentifierNumber": "1129344113",
+      "ownerIdentifierTypeNameAr": "هوية وطنية",
+      "ownerIdentifierTypeNameEn": "National ID",
+      "versionNo": 6,
+      "entityFullNameAr": "مؤسسة امجاد التعمير للمقاولات العامة",
+      "entityFullNameEn": "Amjad Altaamir Establishment For General Contracting",
+      "capital": 10000,
+      "companyDuration": null,
+      "isMain": true,
+      "mainCRNationalNumber": null,
+      "mainCRNumber": null,
+      "isLicenseBased": false,
+      "inLiquidationProcess": false,
+      "hasEcommerce": false,
+      "isListed": false,
+      "entityNameLang": {
+        "entityNameLangID": 1,
+        "entityNameLangDescAr": "اللغة العربية",
+        "entityNameLangDescEn": "Arabic Language"
+      },
+      "entityType": {
+        "entityTypeID": 2,
+        "entityTypeDescAr": "مؤسسة",
+        "entityTypeDescEn": "Establishment"
+      },
+      "capitalCurrency": {
+        "capitalCurrencyID": 1,
+        "capitalCurrencyDescAr": "ريال سعودي",
+        "capitalCurrencyDescEn": "Saudi Riyal"
+      },
+      "companyForm": null,
+      "companyCharacterList": [],
+      "partnersNationality": {
+        "partnersNationalityID": 1,
+        "partnersNationalityDescAr": "سعودية",
+        "partnersNationalityDescEn": "Saudi"
+      },
+      "lastModificationDate": {
+        "lastModificationDateGregorian": "2026-08-09",
+        "lastModificationDateHijri": "26-02-1448"
+      },
+      "crIssueDate": {
+        "crIssueDateGregorian": "2020-07-13",
+        "crIssueDateHijri": "22-11-1441"
+      },
+      "crConfirmDate": {
+        "crConfirmDateGregorian": "2027-05-20",
+        "crConfirmDateHijri": "14-12-1448"
+      },
+      "crStatus": {
+        "crStatusID": 1,
+        "crStatusDescAr": "نشط",
+        "crStatusDescEn": "Active"
+      },
+      "crDeleteDate": null,
+      "crDeleteReasons": []
+    },
+    "crActivities": {
+      "fullActivitiesText": null,
+      "activitiesType": {
+        "activitiesTypeID": "2",
+        "activitiesTypeDescriptionAr": "Isic",
+        "activitiesTypeDescriptionEn": "Isic"
+      },
+      "activityList": [
+        {
+          "activityID": "421010",
+          "activityDescriptionAr": "إنشاء الطرق والشوارع والارصفة ومستلزمات الطرق",
+          "activityDescriptionEn": "Construction of motorways, streets, roads, other vehicular and pedestrian ways",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "421051",
+          "activityDescriptionAr": "إصلاح وصيانة الطرق والشوارع والأرصفة ومستلزمات الطرق",
+          "activityDescriptionEn": "Repair and maintenance of motorways, streets, roads, other vehicular and pedestrian ways",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492300",
+          "activityDescriptionAr": "النقل البري للبضائع",
+          "activityDescriptionEn": "Freight transport by road",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        }
+      ]
+    },
+    "entityAddress": {
+      "addressType": {
+        "addressTypeID": "1",
+        "addressTypeDescriptionAr": "عنوان وطني",
+        "addressTypeDescriptionEn": "National Address"
+      },
+      "nationalAddress": {
+        "city": {
+          "cityId": "18",
+          "cityNameAr": "جدة",
+          "cityNameEn": "JEDDAH"
+        },
+        "district": {
+          "districtId": "10200018084",
+          "districtNameAr": "حي المروة",
+          "districtNameEn": "Al Marwah Dist."
+        },
+        "streetNameAr": "عبد الرحمن الخزاعي",
+        "streetNameEn": "Abdulrahman Al Khuzaie",
+        "buildingNo": "5431",
+        "unitNo": "1",
+        "postalCode": "23545",
+        "additionalNo": "7731"
+      },
+      "fullAddress": null
+    },
+    "capitalDetails": null,
+    "contactInformation": {
+      "phoneNo": "0126010000",
+      "mobileNo": "0502323845",
+      "email": "mb.2012@hotmail.com",
+      "websiteURL": null
+    },
+    "mangmentInformation": {
+      "managementStructure": {
+        "managementStructureID": 6,
+        "managementStructureDescriptionAr": "مدير فأكثر",
+        "managementStructureDescriptionEn": "One or More Managers"
+      },
+      "managerList": [
+        {
+          "managerRef": "-",
+          "identifierTypeId": 1,
+          "identifierNumber": "-",
+          "nationalityId": 113,
+          "isLicensed": false,
+          "managerType": {
+            "managerTypeID": 1,
+            "managerTypeDescriptionAr": "فرد سعودي",
+            "managerTypeDescriptionEn": "Citizen"
+          },
+          "personInfo": {
+            "identifierNo": "-",
+            "titleAr": null,
+            "titleEn": null,
+            "firstNameAr": "مها",
+            "fatherNameAr": "راجح",
+            "grandFatherNameAr": "ناصر",
+            "familyNameAr": "الجهني",
+            "firstNameEn": "MAHA",
+            "fatherNameEn": "RAJEH",
+            "grandFatherNameEn": "NASSER",
+            "familyNameEn": "ALJOHANI",
+            "identifierType": {
+              "identifierTypeID": 1,
+              "identifierTypeDescAr": "هوية وطنية",
+              "identifierTypeDescEn": "National ID"
+            },
+            "nationality": {
+              "nationalityID": 113,
+              "nationalityDescriptionAr": "السعودية",
+              "nationalityDescriptionEn": "Saudi Arabia",
+              "isSaudi": true,
+              "isGulf": true
+            }
+          },
+          "managerPositionList": []
+        }
+      ]
+    },
+    "liquidatorList": []
+  },
+  "error": null
+}

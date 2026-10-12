@@ -1,0 +1,430 @@
+{
+  "data": {
+    "crInformation": {
+      "isRestricted": false,
+      "crNationalNumber": "7053845777",
+      "crNumber": null,
+      "encryptedCrNumber": null,
+      "ownerNameAr": null,
+      "ownerNameEn": null,
+      "ownerIdentifierNumber": null,
+      "ownerIdentifierTypeNameAr": null,
+      "ownerIdentifierTypeNameEn": null,
+      "versionNo": 2,
+      "entityFullNameAr": "شركة الصقر السريع المتميز",
+      "entityFullNameEn": "alsaqr alsarie almumtaz Company",
+      "capital": 100000,
+      "companyDuration": 0,
+      "isMain": true,
+      "mainCRNationalNumber": null,
+      "mainCRNumber": null,
+      "isLicenseBased": true,
+      "inLiquidationProcess": false,
+      "hasEcommerce": false,
+      "isListed": false,
+      "entityNameLang": {
+        "entityNameLangID": 1,
+        "entityNameLangDescAr": "اللغة العربية",
+        "entityNameLangDescEn": "Arabic Language"
+      },
+      "entityType": {
+        "entityTypeID": 1,
+        "entityTypeDescAr": "شركة",
+        "entityTypeDescEn": "Company"
+      },
+      "capitalCurrency": {
+        "capitalCurrencyID": 1,
+        "capitalCurrencyDescAr": "ريال سعودي",
+        "capitalCurrencyDescEn": "Saudi Riyal"
+      },
+      "companyForm": {
+        "companyFormID": 1,
+        "companyFormDescriptionAr": "ذات مسؤولية محدودة",
+        "companyFormDescriptionEn": "Limited liability company"
+      },
+      "companyCharacterList": [
+        {
+          "companyCharacterID": 1,
+          "companyCharacterDescriptionAr": "شخص واحد",
+          "companyCharacterDescriptionEn": "One person"
+        }
+      ],
+      "partnersNationality": {
+        "partnersNationalityID": 3,
+        "partnersNationalityDescAr": "اجنبية",
+        "partnersNationalityDescEn": "Foregin"
+      },
+      "lastModificationDate": {
+        "lastModificationDateGregorian": "2026-09-07",
+        "lastModificationDateHijri": "25-03-1448"
+      },
+      "crIssueDate": {
+        "crIssueDateGregorian": "2026-03-09",
+        "crIssueDateHijri": "20-09-1447"
+      },
+      "crConfirmDate": {
+        "crConfirmDateGregorian": "2027-03-08",
+        "crConfirmDateHijri": "29-09-1448"
+      },
+      "crStatus": {
+        "crStatusID": 1,
+        "crStatusDescAr": "نشط",
+        "crStatusDescEn": "Active"
+      },
+      "crDeleteDate": null,
+      "crDeleteReasons": []
+    },
+    "crActivities": {
+      "fullActivitiesText": null,
+      "activitiesType": {
+        "activitiesTypeID": "2",
+        "activitiesTypeDescriptionAr": "Isic",
+        "activitiesTypeDescriptionEn": "Isic"
+      },
+      "activityList": [
+        {
+          "activityID": "452011",
+          "activityDescriptionAr": "إصلاح ماكينات السيارات",
+          "activityDescriptionEn": "Motor repairs",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452012",
+          "activityDescriptionAr": "إصلاح جيرات السيارات",
+          "activityDescriptionEn": "Gear repairs",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452013",
+          "activityDescriptionAr": "إصلاح كهرباء  السيارات",
+          "activityDescriptionEn": "Cars electrical repair",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452014",
+          "activityDescriptionAr": "إصلاح الكترونيات السيارات",
+          "activityDescriptionEn": "Cars electronics repair",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452015",
+          "activityDescriptionAr": "إصلاح مكيفات السيارات",
+          "activityDescriptionEn": "Repair of car air conditioners",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452021",
+          "activityDescriptionAr": "اصلاح ميكانيكا وكهرباء السيارات",
+          "activityDescriptionEn": "Repair of mechanics and electricity of cars",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452022",
+          "activityDescriptionAr": "اصلاح ميكانيكا وكهرباء وسمكرة ودهان السيارات",
+          "activityDescriptionEn": "Repair of mechanics, electricity, and painting of cars",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452023",
+          "activityDescriptionAr": "أنشطة مراكز خدمات وصيانة السيارات",
+          "activityDescriptionEn": "Activities of cars service and maintenance centres",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452024",
+          "activityDescriptionAr": "أنشطة خراطة أجزاء السيارات",
+          "activityDescriptionEn": "Activities of vehicles turning parts",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452031",
+          "activityDescriptionAr": "ورش حدادة السيارات",
+          "activityDescriptionEn": "Bodywork repair workshops",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452032",
+          "activityDescriptionAr": "ورش سمكرة السيارات وتشمل معالجة الصدأ",
+          "activityDescriptionEn": "Car denting workshops, including rust treatment",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452033",
+          "activityDescriptionAr": "ورش طلاء ودهان السيارات",
+          "activityDescriptionEn": "Painting workshops",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452041",
+          "activityDescriptionAr": "تبديل الزيوت",
+          "activityDescriptionEn": "Engine oil replacement",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452042",
+          "activityDescriptionAr": "تبديل السفايف",
+          "activityDescriptionEn": "Brakes replacement",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452043",
+          "activityDescriptionAr": "ميزان السيارات",
+          "activityDescriptionEn": "Motor vehicles scale",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452051",
+          "activityDescriptionAr": "غسيل  وتشحيم السيارات",
+          "activityDescriptionEn": "Washing and polishing of motor vehicles",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452052",
+          "activityDescriptionAr": "تلميع السيارات البوليش",
+          "activityDescriptionEn": "Polishing of motor vehicles",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452053",
+          "activityDescriptionAr": "تركيب عزل حراري لزجاج السيارات",
+          "activityDescriptionEn": "Installation of thermal insulation for car glass",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452061",
+          "activityDescriptionAr": "إصلاح الراديترات",
+          "activityDescriptionEn": "Radiators repair",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452062",
+          "activityDescriptionAr": "إصلاح عوادم السيارات",
+          "activityDescriptionEn": "Emissions repair",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452063",
+          "activityDescriptionAr": "إصلاح مقاعد السيارات",
+          "activityDescriptionEn": "Repair of motor vehicle seats",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452064",
+          "activityDescriptionAr": "إصلاح هيدروليك السيارات",
+          "activityDescriptionEn": "Motor vehicle hydraulic repair",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452065",
+          "activityDescriptionAr": "إصلاح محاور وفرامل السيارات",
+          "activityDescriptionEn": "Motor vehicle brakes repair",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452070",
+          "activityDescriptionAr": "إصلاح وتركيب زجاج السيارات",
+          "activityDescriptionEn": "Repair and installation of motor vehicle screens and windows",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452081",
+          "activityDescriptionAr": "صيانة وإصلاح وتبديل اطارات السيارات  الخفيفة البنشر",
+          "activityDescriptionEn": "Tyre and tube repair, fitting or replacement for passenger motor vehicles",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "452082",
+          "activityDescriptionAr": "صيانة وإصلاح وتبديل اطارات السيارات الثقيلة البنشر",
+          "activityDescriptionEn": "Tyre and tube repair, fitting or replacement for lorries",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492300",
+          "activityDescriptionAr": "النقل البري للبضائع",
+          "activityDescriptionEn": "Freight transport by road",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": true
+        },
+        {
+          "activityID": "492301",
+          "activityDescriptionAr": "نقل السلع المبردة والمجمدة",
+          "activityDescriptionEn": "Refrigerated haulage",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492302",
+          "activityDescriptionAr": "نقل البضائع والمعدات النقل الثقيل",
+          "activityDescriptionEn": "Heavy haulage",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492311",
+          "activityDescriptionAr": "النقل الخفيف",
+          "activityDescriptionEn": "Light transport of goods",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "522406",
+          "activityDescriptionAr": "الوساطة في نقل البضائع",
+          "activityDescriptionEn": "Freight transport brokerage",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "522931",
+          "activityDescriptionAr": "الخدمات اللوجستية",
+          "activityDescriptionEn": "Logistics Services",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "532011",
+          "activityDescriptionAr": "نقل الطرود (محلي)",
+          "activityDescriptionEn": "(Parcel shipping (domestic",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "532012",
+          "activityDescriptionAr": "نقل الطرود (محلي ودولي)",
+          "activityDescriptionEn": "(Parcel shipping (domestic and international",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "532013",
+          "activityDescriptionAr": "تقديم خدمات التوصيل عبر المنصات الالكترونية",
+          "activityDescriptionEn": "Providing delivery service via Electronic applications",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        }
+      ]
+    },
+    "entityAddress": {
+      "addressType": {
+        "addressTypeID": "1",
+        "addressTypeDescriptionAr": "عنوان وطني",
+        "addressTypeDescriptionEn": "National Address"
+      },
+      "nationalAddress": {
+        "city": {
+          "cityId": "18",
+          "cityNameAr": "جدة",
+          "cityNameEn": "JEDDAH"
+        },
+        "district": {
+          "districtId": "10200018113",
+          "districtNameAr": "حي الفيحاء",
+          "districtNameEn": "Al Fayha Dist."
+        },
+        "streetNameAr": "الشرم",
+        "streetNameEn": "Ash Sharam",
+        "buildingNo": "8885",
+        "unitNo": "1",
+        "postalCode": "22241",
+        "additionalNo": "2902"
+      },
+      "fullAddress": null
+    },
+    "capitalDetails": {
+      "contributionCapitalDetails": {
+        "capitalType": {
+          "capitalTypeID": 1,
+          "capitalTypeDescriptionAr": "نقدي",
+          "capitalTypeDescriptionEn": "Cash"
+        },
+        "cashCapital": 100000,
+        "inkindCapital": 0,
+        "totalCashContribution": 100,
+        "totalInkindContribution": 0,
+        "contributionValue": 1000
+      },
+      "stockCapitalDetails": null,
+      "stockList": []
+    },
+    "contactInformation": {
+      "phoneNo": "0122222222",
+      "mobileNo": "00966557023112",
+      "email": "Mosanwarraich787@gmail.com",
+      "websiteURL": null
+    },
+    "mangmentInformation": {
+      "managementStructure": {
+        "managementStructureID": 2,
+        "managementStructureDescriptionAr": "مديران فأكثر",
+        "managementStructureDescriptionEn": "Two or More Managers"
+      },
+      "managerList": [
+        {
+          "managerRef": "-",
+          "identifierTypeId": 2,
+          "identifierNumber": "-",
+          "nationalityId": 304,
+          "isLicensed": false,
+          "managerType": {
+            "managerTypeID": 4,
+            "managerTypeDescriptionAr": "مقيم",
+            "managerTypeDescriptionEn": "Resident"
+          },
+          "personInfo": {
+            "identifierNo": "-",
+            "titleAr": null,
+            "titleEn": null,
+            "firstNameAr": "محسن",
+            "fatherNameAr": "طارق",
+            "grandFatherNameAr": "شهزاد",
+            "familyNameAr": "محمد",
+            "firstNameEn": "MOHSAN",
+            "fatherNameEn": "TARIQ",
+            "grandFatherNameEn": "SHAHZAD",
+            "familyNameEn": "MUHAMMAD",
+            "identifierType": {
+              "identifierTypeID": 2,
+              "identifierTypeDescAr": "هوية مقيم",
+              "identifierTypeDescEn": "Resident ID"
+            },
+            "nationality": {
+              "nationalityID": 304,
+              "nationalityDescriptionAr": "باكستان",
+              "nationalityDescriptionEn": "Pakistan",
+              "isSaudi": false,
+              "isGulf": false
+            }
+          },
+          "managerPositionList": []
+        }
+      ]
+    },
+    "liquidatorList": []
+  },
+  "error": null
+}

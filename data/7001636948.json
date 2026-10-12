@@ -1,0 +1,599 @@
+{
+  "data": {
+    "crInformation": {
+      "isRestricted": false,
+      "crNationalNumber": "7001636948",
+      "crNumber": "5800004732",
+      "encryptedCrNumber": "Y3U5WDVZMXVjOVN2ai9ZNzhVVE92Zz09",
+      "ownerNameAr": null,
+      "ownerNameEn": null,
+      "ownerIdentifierNumber": null,
+      "ownerIdentifierTypeNameAr": null,
+      "ownerIdentifierTypeNameEn": null,
+      "versionNo": 3,
+      "entityFullNameAr": "شركة الهلالي للتجارة والمقاولات",
+      "entityFullNameEn": "alhilali Company For Trading and Contracting",
+      "capital": 600000,
+      "companyDuration": 99,
+      "isMain": true,
+      "mainCRNationalNumber": null,
+      "mainCRNumber": null,
+      "isLicenseBased": false,
+      "inLiquidationProcess": false,
+      "hasEcommerce": false,
+      "isListed": false,
+      "entityNameLang": {
+        "entityNameLangID": 1,
+        "entityNameLangDescAr": "اللغة العربية",
+        "entityNameLangDescEn": "Arabic Language"
+      },
+      "entityType": {
+        "entityTypeID": 1,
+        "entityTypeDescAr": "شركة",
+        "entityTypeDescEn": "Company"
+      },
+      "capitalCurrency": {
+        "capitalCurrencyID": 1,
+        "capitalCurrencyDescAr": "ريال سعودي",
+        "capitalCurrencyDescEn": "Saudi Riyal"
+      },
+      "companyForm": {
+        "companyFormID": 1,
+        "companyFormDescriptionAr": "ذات مسؤولية محدودة",
+        "companyFormDescriptionEn": "Limited liability company"
+      },
+      "companyCharacterList": [],
+      "partnersNationality": {
+        "partnersNationalityID": 1,
+        "partnersNationalityDescAr": "سعودية",
+        "partnersNationalityDescEn": "Saudi"
+      },
+      "lastModificationDate": {
+        "lastModificationDateGregorian": "2026-02-03",
+        "lastModificationDateHijri": "15-08-1447"
+      },
+      "crIssueDate": {
+        "crIssueDateGregorian": "1991-01-01",
+        "crIssueDateHijri": "15-06-1411"
+      },
+      "crConfirmDate": {
+        "crConfirmDateGregorian": "2026-11-02",
+        "crConfirmDateHijri": "22-05-1448"
+      },
+      "crStatus": {
+        "crStatusID": 1,
+        "crStatusDescAr": "نشط",
+        "crStatusDescEn": "Active"
+      },
+      "crDeleteDate": null,
+      "crDeleteReasons": []
+    },
+    "crActivities": {
+      "fullActivitiesText": null,
+      "activitiesType": {
+        "activitiesTypeID": "2",
+        "activitiesTypeDescriptionAr": "Isic",
+        "activitiesTypeDescriptionEn": "Isic"
+      },
+      "activityList": [
+        {
+          "activityID": "081001",
+          "activityDescriptionAr": "تشغيل المحاجر",
+          "activityDescriptionEn": "Operating quarries",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "081003",
+          "activityDescriptionAr": "تشغيل مناجم الرمال أو الحصباء  يشمل  الكسارات",
+          "activityDescriptionEn": "Operating sand or gravel mines, includes (crushers)",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "192052",
+          "activityDescriptionAr": "انتاج الإسفلت",
+          "activityDescriptionEn": "Production of asphalt",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "239534",
+          "activityDescriptionAr": "صناعة الخلطات الخرسانية الجاهزة والجافة متعددة الاستخدامات",
+          "activityDescriptionEn": "Manufacture of ready-mixed concrete and multi-use dry concrete",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "331254",
+          "activityDescriptionAr": "صيانة المصاعد",
+          "activityDescriptionEn": "Maintenance of elevators",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "331416",
+          "activityDescriptionAr": "إصلاح وصيانة معدات الإضاءة الكهربائية",
+          "activityDescriptionEn": "Repair and maintenance of electric lighting equipment",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "331417",
+          "activityDescriptionAr": "اصلاح وصيانة أسلاك التيار الكهربائي الخاصة بالدوائر الكهربائية",
+          "activityDescriptionEn": "Repair and maintenance of current-carrying wiring devices and non-current-carrying wiring devices for wiring electrical circuits",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "332021",
+          "activityDescriptionAr": "تركيب معدات الاتصالات",
+          "activityDescriptionEn": "Installation of communications equipment",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "370002",
+          "activityDescriptionAr": "تشغيل شبكات ومرافق معالجة الصرف الصحي",
+          "activityDescriptionEn": "Treatment of wastewater",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "410010",
+          "activityDescriptionAr": "الإنشاءات العامة للمباني السكنية",
+          "activityDescriptionEn": "Construction of all types of residential buildings",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "410021",
+          "activityDescriptionAr": "الانشاءات العامة للمباني غير السكنية (مثل المدارس والمستشفيات والفنادق ....الخ)",
+          "activityDescriptionEn": "General construction of non residential buildings such as schools hospitals hotels etc",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "410023",
+          "activityDescriptionAr": "الإنشاءات العامة للمباني الحكومية",
+          "activityDescriptionEn": "General constructions of government buildings",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "410030",
+          "activityDescriptionAr": "إنشاءات المباني الجاهزة في المواقع",
+          "activityDescriptionEn": "Erection of prefabricated constructions on the site",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "410040",
+          "activityDescriptionAr": "ترميمات المباني السكنية والغير سكنية",
+          "activityDescriptionEn": "remodeling or renovating existing residential and non residential structures",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "421010",
+          "activityDescriptionAr": "إنشاء الطرق والشوارع والارصفة ومستلزمات الطرق",
+          "activityDescriptionEn": "Construction of motorways, streets, roads, other vehicular and pedestrian ways",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "421051",
+          "activityDescriptionAr": "إصلاح وصيانة الطرق والشوارع والأرصفة ومستلزمات الطرق",
+          "activityDescriptionEn": "Repair and maintenance of motorways, streets, roads, other vehicular and pedestrian ways",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "422010",
+          "activityDescriptionAr": "تمديد الانابيب باختلاف انواعها للكهرباء والاتصالات وغيرها",
+          "activityDescriptionEn": "Long-distance pipelines, communication and power lines",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "422031",
+          "activityDescriptionAr": "تمديدات خطوط المياه بين المدن وداخلها وإنشاء شبكات جديدة",
+          "activityDescriptionEn": "Transfer of non-hazardous industrial waste",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "422032",
+          "activityDescriptionAr": "إنشاء المحطات والخطوط الرئيسية لتوزيع المياه",
+          "activityDescriptionEn": "142\t422032\tإنشاء واصلاح المحطات والخطوط الرئيسية لتوزيع المياه\tConstruction of main lines and stations of water distribution",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "422033",
+          "activityDescriptionAr": "إصلاح وصيانة المحطات والشبكات والخطوط الرئيسية لتوزيع المياه",
+          "activityDescriptionEn": "Repair and maintenance of water distribution stations, networks and main lines",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "422041",
+          "activityDescriptionAr": "إنشاء قنوات الري والسقي وأبراج تخزين المياه الرئيسية",
+          "activityDescriptionEn": "Construction of irrigation systems (canals), water main storage towers",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "422044",
+          "activityDescriptionAr": "إصلاح وصيانة قنوات الري والسقي وأبراج تخزين المياه الرئيسية",
+          "activityDescriptionEn": "Repair and maintenance of irrigation systems (canals), water main storage towers",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "422045",
+          "activityDescriptionAr": "إصلاح وصيانة محطات ومشاريع الصرف الصحي وشبكات المجاري والمضخات",
+          "activityDescriptionEn": "Repair and maintenance of sewer systems, sewage disposal plants and pumping station",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "422046",
+          "activityDescriptionAr": "إصلاح وصيانة محطات الطاقة الكهربائية والمحولات",
+          "activityDescriptionEn": "Repair and maintenance of power plants",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "422047",
+          "activityDescriptionAr": "إصلاح وصيانة محطات وأبراج الاتصالات السلكية واللاسلكية والرادار",
+          "activityDescriptionEn": "Repair and maintenance of wired and wireless communication stations and radars",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "422050",
+          "activityDescriptionAr": "إنشاء محطات ومشاريع الصرف الصحي وشبكات المجاري والمضخات",
+          "activityDescriptionEn": "Construction of sewer systems, sewage disposal plants and pumping stations",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "422070",
+          "activityDescriptionAr": "إنشاء وإقامة محطات وأبراج الاتصالات السلكية واللاسلكية والرادار",
+          "activityDescriptionEn": "Construction and establishment of telecommunications and radar stations and towers",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "429040",
+          "activityDescriptionAr": "إنشاء السدود",
+          "activityDescriptionEn": "Construction of dams",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "429073",
+          "activityDescriptionAr": "إصلاح وصيانة السدود",
+          "activityDescriptionEn": "Repair and maintenance of dams",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "431101",
+          "activityDescriptionAr": "هدم وإزالة المباني وغيرها",
+          "activityDescriptionEn": "Demolition or wrecking of buildings and other structures",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "432111",
+          "activityDescriptionAr": "تمديد الاسلاك الكهربائية",
+          "activityDescriptionEn": "Electrical wiring",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "432112",
+          "activityDescriptionAr": "تمديد  اسلاك الاتصالات",
+          "activityDescriptionEn": "Telecommunications wiring",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "432122",
+          "activityDescriptionAr": "تركيب وتمديد شبكات الكمبيوتر والاتصالات",
+          "activityDescriptionEn": "Installation of computer network and cable television wiring",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "432132",
+          "activityDescriptionAr": "تركيب وصيانة أجهزة ومعدات الإنذار من الحريق",
+          "activityDescriptionEn": "Installation and maintenance of fire alarms devices and equipment",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "432134",
+          "activityDescriptionAr": "تركيب وصيانة الأجهزة الأمنية",
+          "activityDescriptionEn": "Installation and maintenance of safety devices",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "432135",
+          "activityDescriptionAr": "تركيب وصيانة أجهزة السلامة المرورية",
+          "activityDescriptionEn": "Installation and maintenance of traffic safety devices",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "432230",
+          "activityDescriptionAr": "تركيب الادوات الصحية وصيانتها واصلاحها",
+          "activityDescriptionEn": "Installation maintenance and repair of plumbing and sanitary equipment",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "432962",
+          "activityDescriptionAr": "تركيب وصيانة صافرات الإنذار المبكر ومراكز التحكم بها",
+          "activityDescriptionEn": "Installation and maintenance of early warning sirens and control centres",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "432963",
+          "activityDescriptionAr": "تركيب وصيانة أجهزة ومعدات الإطفاء",
+          "activityDescriptionEn": "Installation and maintenance of fire equipment",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "433010",
+          "activityDescriptionAr": "تشطيب المباني",
+          "activityDescriptionEn": "Building finishing",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492300",
+          "activityDescriptionAr": "النقل البري للبضائع",
+          "activityDescriptionEn": "Freight transport by road",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492302",
+          "activityDescriptionAr": "نقل البضائع والمعدات النقل الثقيل",
+          "activityDescriptionEn": "Heavy haulage",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "551011",
+          "activityDescriptionAr": "الفنادق",
+          "activityDescriptionEn": "Hotels",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "551013",
+          "activityDescriptionAr": "الفنادق التراثية",
+          "activityDescriptionEn": "Heritage hotels",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "551022",
+          "activityDescriptionAr": "الشقق الفندقية",
+          "activityDescriptionEn": "Hotel apartments",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "551023",
+          "activityDescriptionAr": "الفلل الفندقية",
+          "activityDescriptionEn": "Hotel villas",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "551041",
+          "activityDescriptionAr": "بيوت العطلات (الشاليهات)",
+          "activityDescriptionEn": "Holiday House Chalets",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "551042",
+          "activityDescriptionAr": "الاستراحات التجارية",
+          "activityDescriptionEn": "Commercial chalets",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "551043",
+          "activityDescriptionAr": "النزل السياحية",
+          "activityDescriptionEn": "Tourist hostel",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "551044",
+          "activityDescriptionAr": "المنتجعات",
+          "activityDescriptionEn": "Resorts",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "551050",
+          "activityDescriptionAr": "قصور وصالات الافراح والمناسبات مع الاقامة",
+          "activityDescriptionEn": "Palaces and halls of weddings and events with accommodation",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "551060",
+          "activityDescriptionAr": "وحدات المشاركة بالوقت",
+          "activityDescriptionEn": "Timeshare units",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "811003",
+          "activityDescriptionAr": "أنشطة خدمات صيانة المباني",
+          "activityDescriptionEn": "provision of maintenance services within facilities",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "812100",
+          "activityDescriptionAr": "التنظيف العام للمباني",
+          "activityDescriptionEn": "General cleaning of buildings",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "812907",
+          "activityDescriptionAr": "أنشطة تنظيف الطرق",
+          "activityDescriptionEn": "street sweeping and snow and ice removal",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "813011",
+          "activityDescriptionAr": "رعاية وصيانة المنتزهات والحدائق لأغراض الإسكان العام",
+          "activityDescriptionEn": "care and maintenance of parks and gardens for public housing",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "813012",
+          "activityDescriptionAr": "رعاية وصيانة مناظر المباني والحدائق المنزلية وحدائق الأسقف وواجهات المباني الخاصة وغيرها",
+          "activityDescriptionEn": "care and maintenance of greenery for buildings (roof gardens, façade greenery, indoor gardens)",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "813013",
+          "activityDescriptionAr": "رعاية وصيانة منتزهات الطرق السريعة",
+          "activityDescriptionEn": "care and maintenance of parks and gardens for highway greenery",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "813014",
+          "activityDescriptionAr": "رعاية وصيانة أراضي الملاعب الرياضية وملاعب الجولف",
+          "activityDescriptionEn": "care and maintenance of greenery for sports grounds (e.g. golf courses)",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "813015",
+          "activityDescriptionAr": "رعاية وصيانة المياه الساكنة والجارية  يشمل  الأحواض والبحيرات وممرات المياه وحمامات السباحة والمناطق المبللة",
+          "activityDescriptionEn": "care and maintenance of greenery for stationary and flowing water (basins, ponds, swimming pools, watercourses and wet areas)",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        }
+      ]
+    },
+    "entityAddress": {
+      "addressType": {
+        "addressTypeID": "1",
+        "addressTypeDescriptionAr": "عنوان وطني",
+        "addressTypeDescriptionEn": "National Address"
+      },
+      "nationalAddress": {
+        "city": {
+          "cityId": "1542",
+          "cityNameAr": "الباحة",
+          "cityNameEn": "BAHAH"
+        },
+        "district": {
+          "districtId": "11201542014",
+          "districtNameAr": "حي الباهر",
+          "districtNameEn": "Al Baher Dist."
+        },
+        "streetNameAr": "ابو بكر الصديق",
+        "streetNameEn": "Abu Bakr Al Siddiq",
+        "buildingNo": "6604",
+        "unitNo": "1",
+        "postalCode": "65525",
+        "additionalNo": "4141"
+      },
+      "fullAddress": null
+    },
+    "capitalDetails": {
+      "contributionCapitalDetails": {
+        "capitalType": {
+          "capitalTypeID": 1,
+          "capitalTypeDescriptionAr": "نقدي",
+          "capitalTypeDescriptionEn": "Cash"
+        },
+        "cashCapital": 600000,
+        "inkindCapital": 0,
+        "totalCashContribution": 600,
+        "totalInkindContribution": 0,
+        "contributionValue": 1000
+      },
+      "stockCapitalDetails": null,
+      "stockList": []
+    },
+    "contactInformation": {
+      "phoneNo": "0177226293",
+      "mobileNo": "00966557614455",
+      "email": "hhilalico1@gmail.com",
+      "websiteURL": null
+    },
+    "mangmentInformation": {
+      "managementStructure": {
+        "managementStructureID": 1,
+        "managementStructureDescriptionAr": "مدير",
+        "managementStructureDescriptionEn": "Manger"
+      },
+      "managerList": [
+        {
+          "managerRef": "-",
+          "identifierTypeId": 1,
+          "identifierNumber": "-",
+          "nationalityId": 113,
+          "isLicensed": false,
+          "managerType": {
+            "managerTypeID": 1,
+            "managerTypeDescriptionAr": "فرد سعودي",
+            "managerTypeDescriptionEn": "Citizen"
+          },
+          "personInfo": {
+            "identifierNo": "-",
+            "titleAr": null,
+            "titleEn": null,
+            "firstNameAr": "احمد",
+            "fatherNameAr": "عبدالله",
+            "grandFatherNameAr": "محمد",
+            "familyNameAr": "المصعبي",
+            "firstNameEn": "AHMED",
+            "fatherNameEn": "ABDULLAH",
+            "grandFatherNameEn": "MOHAMMED",
+            "familyNameEn": "AL MUSAABI",
+            "identifierType": {
+              "identifierTypeID": 1,
+              "identifierTypeDescAr": "هوية وطنية",
+              "identifierTypeDescEn": "National ID"
+            },
+            "nationality": {
+              "nationalityID": 113,
+              "nationalityDescriptionAr": "السعودية",
+              "nationalityDescriptionEn": "Saudi Arabia",
+              "isSaudi": true,
+              "isGulf": true
+            }
+          },
+          "managerPositionList": []
+        }
+      ]
+    },
+    "liquidatorList": []
+  },
+  "error": null
+}

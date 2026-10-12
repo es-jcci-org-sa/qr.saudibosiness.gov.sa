@@ -1,0 +1,181 @@
+{
+  "data": {
+    "crInformation": {
+      "isRestricted": false,
+      "crNationalNumber": "7028250558",
+      "crNumber": "5855359111",
+      "encryptedCrNumber": "aUVabElWOWw4eGJTc2ZIVVdkMnpHQT09",
+      "ownerNameAr": "احمد حسين موسى بحري",
+      "ownerNameEn": "AHMED HUSSEIN MOUSA BAHRI",
+      "ownerIdentifierNumber": "1061362537",
+      "ownerIdentifierTypeNameAr": "هوية وطنية",
+      "ownerIdentifierTypeNameEn": "National ID",
+      "versionNo": 4,
+      "entityFullNameAr": "مؤسسة احمد حسين موسى بحري",
+      "entityFullNameEn": "AHMED HUSSEIN MOUSA BAHRI Establishment Commercial",
+      "capital": 5000,
+      "companyDuration": null,
+      "isMain": true,
+      "mainCRNationalNumber": null,
+      "mainCRNumber": null,
+      "isLicenseBased": false,
+      "inLiquidationProcess": false,
+      "hasEcommerce": false,
+      "isListed": false,
+      "entityNameLang": {
+        "entityNameLangID": 1,
+        "entityNameLangDescAr": "اللغة العربية",
+        "entityNameLangDescEn": "Arabic Language"
+      },
+      "entityType": {
+        "entityTypeID": 2,
+        "entityTypeDescAr": "مؤسسة",
+        "entityTypeDescEn": "Establishment"
+      },
+      "capitalCurrency": {
+        "capitalCurrencyID": 1,
+        "capitalCurrencyDescAr": "ريال سعودي",
+        "capitalCurrencyDescEn": "Saudi Riyal"
+      },
+      "companyForm": null,
+      "companyCharacterList": [],
+      "partnersNationality": {
+        "partnersNationalityID": 1,
+        "partnersNationalityDescAr": "سعودية",
+        "partnersNationalityDescEn": "Saudi"
+      },
+      "lastModificationDate": {
+        "lastModificationDateGregorian": "2026-03-13",
+        "lastModificationDateHijri": "24-09-1447"
+      },
+      "crIssueDate": {
+        "crIssueDateGregorian": "2022-03-11",
+        "crIssueDateHijri": "08-08-1443"
+      },
+      "crConfirmDate": {
+        "crConfirmDateGregorian": "2027-02-18",
+        "crConfirmDateHijri": "11-09-1448"
+      },
+      "crStatus": {
+        "crStatusID": 1,
+        "crStatusDescAr": "نشط",
+        "crStatusDescEn": "Active"
+      },
+      "crDeleteDate": null,
+      "crDeleteReasons": []
+    },
+    "crActivities": {
+      "fullActivitiesText": null,
+      "activitiesType": {
+        "activitiesTypeID": "2",
+        "activitiesTypeDescriptionAr": "Isic",
+        "activitiesTypeDescriptionEn": "Isic"
+      },
+      "activityList": [
+        {
+          "activityID": "478100",
+          "activityDescriptionAr": "بيع الأغذية والمشروبات بالتجزئة في الأكشاك والأسواق",
+          "activityDescriptionEn": "Retail sale via stalls and markets of food and beverages",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "478200",
+          "activityDescriptionAr": "بيع المنسوجات والملبوسات والأحذية بالتجزئة في الأكشاك والأسواق",
+          "activityDescriptionEn": "Retail sale via stalls and markets of textiles, clothing and footwear",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492243",
+          "activityDescriptionAr": "النقل المتخصص",
+          "activityDescriptionEn": "Specialized transport",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        }
+      ]
+    },
+    "entityAddress": {
+      "addressType": {
+        "addressTypeID": "1",
+        "addressTypeDescriptionAr": "عنوان وطني",
+        "addressTypeDescriptionEn": "National Address"
+      },
+      "nationalAddress": {
+        "city": {
+          "cityId": "15",
+          "cityNameAr": "ابها",
+          "cityNameEn": "ABHA"
+        },
+        "district": {
+          "districtId": "10600015020",
+          "districtNameAr": "حي المروج",
+          "districtNameEn": "Al Muruj Dist."
+        },
+        "streetNameAr": "4",
+        "streetNameEn": "4",
+        "buildingNo": "7494",
+        "unitNo": "1",
+        "postalCode": "62527",
+        "additionalNo": "4200"
+      },
+      "fullAddress": null
+    },
+    "capitalDetails": null,
+    "contactInformation": {
+      "phoneNo": "0172953799",
+      "mobileNo": "0500455579",
+      "email": "abu.hamd81@gmail.com",
+      "websiteURL": null
+    },
+    "mangmentInformation": {
+      "managementStructure": {
+        "managementStructureID": 6,
+        "managementStructureDescriptionAr": "مدير فأكثر",
+        "managementStructureDescriptionEn": "One or More Managers"
+      },
+      "managerList": [
+        {
+          "managerRef": "-",
+          "identifierTypeId": 1,
+          "identifierNumber": "-",
+          "nationalityId": 113,
+          "isLicensed": false,
+          "managerType": {
+            "managerTypeID": 1,
+            "managerTypeDescriptionAr": "فرد سعودي",
+            "managerTypeDescriptionEn": "Citizen"
+          },
+          "personInfo": {
+            "identifierNo": "-",
+            "titleAr": null,
+            "titleEn": null,
+            "firstNameAr": "احمد",
+            "fatherNameAr": "حسين",
+            "grandFatherNameAr": "موسى",
+            "familyNameAr": "بحري",
+            "firstNameEn": "AHMED",
+            "fatherNameEn": "HUSSEIN",
+            "grandFatherNameEn": "MOUSA",
+            "familyNameEn": "BAHRI",
+            "identifierType": {
+              "identifierTypeID": 1,
+              "identifierTypeDescAr": "هوية وطنية",
+              "identifierTypeDescEn": "National ID"
+            },
+            "nationality": {
+              "nationalityID": 113,
+              "nationalityDescriptionAr": "السعودية",
+              "nationalityDescriptionEn": "Saudi Arabia",
+              "isSaudi": true,
+              "isGulf": true
+            }
+          },
+          "managerPositionList": []
+        }
+      ]
+    },
+    "liquidatorList": []
+  },
+  "error": null
+}

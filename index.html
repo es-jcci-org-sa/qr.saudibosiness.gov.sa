@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ar" translate="no" style="--base-font-size: 1rem;">
+<head>
+  <base href="./">
+  <script>
+(function () {
+  try {
+    var path = location.pathname.replace(/\/index\.html$/i, '');
+    // /repo/viewcr -> /repo/ ; /viewcr -> /
+    var withoutRoute = path.replace(/\/viewcr\/?$/i, '/');
+    if (!withoutRoute.endsWith('/')) withoutRoute = withoutRoute.slice(0, withoutRoute.lastIndexOf('/') + 1);
+    var root = withoutRoute || '/';
+    window.__CLONED_DEPLOYMENT_BASE__ = root === '/' ? '' : root.replace(/\/$/, '');
+    var base = document.querySelector('base');
+    if (base) base.setAttribute('href', root);
+  } catch (_) {}
+})();
+</script>
+  <script src="js/data-router.js"></script>
+  <script>
+(function () {
+  var resources = {"https://qr.saudibusiness.gov.sa/config/root/env.root.js?1772371391979":"js/config/root/env.root--b7132ca431ca0e8d.js","https://qr.saudibusiness.gov.sa/assets/index-QVNIwH8F.css":"css/assets/index-QVNIwH8F.css","https://qr.saudibusiness.gov.sa/env.js?1772371391979":"js/env--b7132ca431ca0e8d.js","https://qr.saudibusiness.gov.sa/assets/index-CzTOOSTm.js":"js/assets/index-CzTOOSTm.js","https://qr.saudibusiness.gov.sa/assets/header-web-DisaZgHs.jpg":"assets/header-web-DisaZgHs.jpg","https://qr.saudibusiness.gov.sa/assets/sdaiaLogo-DA2sR2Cc.svg":"assets/sdaiaLogo-DA2sR2Cc.svg","https://qr.saudibusiness.gov.sa/assets/new-logo-w-Bsa-bGtT.svg":"assets/new-logo-w-Bsa-bGtT.svg","https://qr.saudibusiness.gov.sa/assets/DINNextLTArabic-Medium-C5X_7zdr.woff2":"assets/DINNextLTArabic-Medium-C5X_7zdr.woff2","https://qr.saudibusiness.gov.sa/assets/DINNextLTArabic-Regular-DYtxlCll.woff2":"assets/DINNextLTArabic-Regular-DYtxlCll.woff2","https://qr.saudibusiness.gov.sa/assets/DINNextLTArabic-Bold-D6gNGPOf.woff2":"assets/DINNextLTArabic-Bold-D6gNGPOf.woff2","https://qr.saudibusiness.gov.sa/assets/header-mobile-Bri6g_KO.jpg":"assets/header-mobile-Bri6g_KO.jpg","https://qr.saudibusiness.gov.sa/":"index.html","https://qr.saudibusiness.gov.sa/root/assets/icons/fav.svg":"assets/favicons/selected-c3cb6f13de5226c2.svg","https://qr.saudibusiness.gov.sa/assets/worker-BlwysitS.js":"js/assets/worker-BlwysitS.js","https://qr.saudibusiness.gov.sa/assets/mada-B5JvXKD0.svg":"assets/mada-B5JvXKD0.svg","https://qr.saudibusiness.gov.sa/assets/hij-dLruiPdD.svg":"assets/hij-dLruiPdD.svg","https://qr.saudibusiness.gov.sa/assets/Ncw-RllAa_1m.svg":"assets/Ncw-RllAa_1m.svg","https://qr.saudibusiness.gov.sa/assets/ncec-DafIfX8-.svg":"assets/ncec-DafIfX8-.svg","https://qr.saudibusiness.gov.sa/assets/mewa-CB3JT-DK.svg":"assets/mewa-CB3JT-DK.svg","https://qr.saudibusiness.gov.sa/assets/MOHLogo-DXoqC3AC.svg":"assets/MOHLogo-DXoqC3AC.svg","https://qr.saudibusiness.gov.sa/assets/MTlogo-C2Y-lheE.svg":"assets/MTlogo-C2Y-lheE.svg","https://qr.saudibusiness.gov.sa/assets/mediaLogo-2PNR8sGi.svg":"assets/mediaLogo-2PNR8sGi.svg","https://qr.saudibusiness.gov.sa/assets/monshat-Bo84mOWv.svg":"assets/monshat-Bo84mOWv.svg","https://qr.saudibusiness.gov.sa/assets/mimLogo-B2V8EhDO.svg":"assets/mimLogo-B2V8EhDO.svg","https://qr.saudibusiness.gov.sa/assets/Mwan-B2q-vzvv.svg":"assets/Mwan-B2q-vzvv.svg","https://qr.saudibusiness.gov.sa/assets/mos-CrtMoiFp.svg":"assets/mos-CrtMoiFp.svg","https://qr.saudibusiness.gov.sa/assets/chi-BQS2q6wB.svg":"assets/chi-BQS2q6wB.svg","https://qr.saudibusiness.gov.sa/assets/mawani-BenLE5JF.svg":"assets/mawani-BenLE5JF.svg","https://qr.saudibusiness.gov.sa/assets/rega-CymOqqhC.svg":"assets/rega-CymOqqhC.svg","https://qr.saudibusiness.gov.sa/assets/moc-G43DWAQE.svg":"assets/moc-G43DWAQE.svg","https://qr.saudibusiness.gov.sa/assets/saso2-D1jriw6E.svg":"assets/saso2-D1jriw6E.svg","https://qr.saudibusiness.gov.sa/assets/tvtc2-q8rPKbe4.svg":"assets/tvtc2-q8rPKbe4.svg"};
+  var captchaPaths = {};
+  var basenameMatches = {"env.root.js":"js/config/root/env.root--b7132ca431ca0e8d.js","index-QVNIwH8F.css":"css/assets/index-QVNIwH8F.css","env.js":"js/env--b7132ca431ca0e8d.js","index-CzTOOSTm.js":"js/assets/index-CzTOOSTm.js","header-web-DisaZgHs.jpg":"assets/header-web-DisaZgHs.jpg","sdaiaLogo-DA2sR2Cc.svg":"assets/sdaiaLogo-DA2sR2Cc.svg","new-logo-w-Bsa-bGtT.svg":"assets/new-logo-w-Bsa-bGtT.svg","DINNextLTArabic-Medium-C5X_7zdr.woff2":"assets/DINNextLTArabic-Medium-C5X_7zdr.woff2","DINNextLTArabic-Regular-DYtxlCll.woff2":"assets/DINNextLTArabic-Regular-DYtxlCll.woff2","DINNextLTArabic-Bold-D6gNGPOf.woff2":"assets/DINNextLTArabic-Bold-D6gNGPOf.woff2","header-mobile-Bri6g_KO.jpg":"assets/header-mobile-Bri6g_KO.jpg","fav.svg":"assets/favicons/selected-c3cb6f13de5226c2.svg","worker-BlwysitS.js":"js/assets/worker-BlwysitS.js","mada-B5JvXKD0.svg":"assets/mada-B5JvXKD0.svg","hij-dLruiPdD.svg":"assets/hij-dLruiPdD.svg","Ncw-RllAa_1m.svg":"assets/Ncw-RllAa_1m.svg","ncec-DafIfX8-.svg":"assets/ncec-DafIfX8-.svg","mewa-CB3JT-DK.svg":"assets/mewa-CB3JT-DK.svg","MOHLogo-DXoqC3AC.svg":"assets/MOHLogo-DXoqC3AC.svg","MTlogo-C2Y-lheE.svg":"assets/MTlogo-C2Y-lheE.svg","mediaLogo-2PNR8sGi.svg":"assets/mediaLogo-2PNR8sGi.svg","monshat-Bo84mOWv.svg":"assets/monshat-Bo84mOWv.svg","mimLogo-B2V8EhDO.svg":"assets/mimLogo-B2V8EhDO.svg","Mwan-B2q-vzvv.svg":"assets/Mwan-B2q-vzvv.svg","mos-CrtMoiFp.svg":"assets/mos-CrtMoiFp.svg","chi-BQS2q6wB.svg":"assets/chi-BQS2q6wB.svg","mawani-BenLE5JF.svg":"assets/mawani-BenLE5JF.svg","rega-CymOqqhC.svg":"assets/rega-CymOqqhC.svg","moc-G43DWAQE.svg":"assets/moc-G43DWAQE.svg","saso2-D1jriw6E.svg":"assets/saso2-D1jriw6E.svg","tvtc2-q8rPKbe4.svg":"assets/tvtc2-q8rPKbe4.svg"};
+  var imageStemMatches = {"header-web-disazghs":"assets/header-web-DisaZgHs.jpg","sdaialogo-da2sr2cc":"assets/sdaiaLogo-DA2sR2Cc.svg","new-logo-w-bsa-bgtt":"assets/new-logo-w-Bsa-bGtT.svg","header-mobile-bri6g_ko":"assets/header-mobile-Bri6g_KO.jpg","fav":"assets/favicons/selected-c3cb6f13de5226c2.svg","mada-b5jvxkd0":"assets/mada-B5JvXKD0.svg","hij-dlruipdd":"assets/hij-dLruiPdD.svg","ncw-rllaa_1m":"assets/Ncw-RllAa_1m.svg","ncec-dafifx8-":"assets/ncec-DafIfX8-.svg","mewa-cb3jt-dk":"assets/mewa-CB3JT-DK.svg","mohlogo-dxoqc3ac":"assets/MOHLogo-DXoqC3AC.svg","mtlogo-c2y-lhee":"assets/MTlogo-C2Y-lheE.svg","medialogo-2pnr8sgi":"assets/mediaLogo-2PNR8sGi.svg","monshat-bo84mowv":"assets/monshat-Bo84mOWv.svg","mimlogo-b2v8ehdo":"assets/mimLogo-B2V8EhDO.svg","mwan-b2q-vzvv":"assets/Mwan-B2q-vzvv.svg","mos-crtmoifp":"assets/mos-CrtMoiFp.svg","chi-bqs2q6wb":"assets/chi-BQS2q6wB.svg","mawani-benle5jf":"assets/mawani-BenLE5JF.svg","rega-cymoqqhc":"assets/rega-CymOqqhC.svg","moc-g43dwaqe":"assets/moc-G43DWAQE.svg","saso2-d1jriw6e":"assets/saso2-D1jriw6E.svg","tvtc2-q8rpkbe4":"assets/tvtc2-q8rPKbe4.svg"};
+  var sourcePageUrl = "https://qr.saudibusiness.gov.sa/viewcr?nCrNumber=YBbOaTRUT5SuvKEkctoE+g==";
+
+  function normalizeAssetPath(value) {
+    if (typeof value !== 'string' || !value) return value;
+    var raw = value.trim();
+    try {
+      var original = new URL(raw, sourcePageUrl); original.hash = '';
+      var file = resources[original.href];
+      var queryless = original.origin + original.pathname;
+      if (!file && captchaPaths[queryless]) file = resources[queryless] || null;
+      if (!file) {
+        var name = original.pathname.split('/').pop();
+        file = name && basenameMatches[name] || null;
+      }
+      if (!file && /\.(?:png|jpe?g|gif|webp|avif|svg|ico)$/i.test(original.pathname)) {
+        var imageName = original.pathname.split('/').pop() || '';
+        var imageStem = imageName.replace(/\.[^.]*$/, '').toLowerCase();
+        file = imageStem && imageStemMatches[imageStem] || null;
+      }
+      if (file) return (window.__CLONED_DEPLOYMENT_BASE__ || '') + '/' + file;
+      if (captchaPaths[queryless]) return 'data:,';
+    } catch (_) {}
+    return value;
+  }
+
+  function rewriteCssUrlTokens(input, mapper) {
+  var text = String(input);
+  var output = '';
+  var copied = 0;
+  var index = 0;
+  var length = text.length;
+  function skipString(position, quote) {
+    position += 1;
+    while (position < length) {
+      if (text[position] === '\\') { position += 2; continue; }
+      if (text[position] === quote) return position + 1;
+      position += 1;
+    }
+    return length;
+  }
+  function skipComment(position) {
+    var end = text.indexOf('*/', position + 2);
+    return end < 0 ? length : end + 2;
+  }
+  while (index < length) {
+    var character = text[index];
+    if (character === '/' && text[index + 1] === '*') { index = skipComment(index); continue; }
+    if (character === '"' || character === "'") { index = skipString(index, character); continue; }
+    var boundaryBefore = index === 0 || !/[a-z0-9_-]/i.test(text[index - 1]);
+    if (!boundaryBefore || text.slice(index, index + 3).toLowerCase() !== 'url') { index += 1; continue; }
+    var cursor = index + 3;
+    while (cursor < length && /\s/.test(text[cursor])) cursor += 1;
+    if (text[cursor] !== '(') { index += 3; continue; }
+    cursor += 1;
+    while (cursor < length && /\s/.test(text[cursor])) cursor += 1;
+    var valueStart = cursor;
+    var valueEnd;
+    var close;
+    var quote = text[cursor] === '"' || text[cursor] === "'" ? text[cursor] : '';
+    if (quote) {
+      valueStart = cursor + 1;
+      cursor = skipString(cursor, quote);
+      if (cursor > length || text[cursor - 1] !== quote) { index = length; continue; }
+      valueEnd = cursor - 1;
+      while (cursor < length && /\s/.test(text[cursor])) cursor += 1;
+      if (text[cursor] !== ')') { index = cursor; continue; }
+      close = cursor;
+    } else {
+      var depth = 1;
+      while (cursor < length) {
+        character = text[cursor];
+        if (character === '\\') { cursor += 2; continue; }
+        if (character === '/' && text[cursor + 1] === '*') { cursor = skipComment(cursor); continue; }
+        if (character === '"' || character === "'") { cursor = skipString(cursor, character); continue; }
+        if (character === '(') depth += 1;
+        else if (character === ')' && --depth === 0) break;
+        cursor += 1;
+      }
+      if (cursor >= length) { index = length; continue; }
+      close = cursor;
+      valueEnd = close;
+      while (valueEnd > valueStart && /\s/.test(text[valueEnd - 1])) valueEnd -= 1;
+    }
+    var original = text.slice(valueStart, valueEnd);
+    var replacement = mapper(original, {
+      start: index,
+      end: close + 1,
+      valueStart: valueStart,
+      valueEnd: valueEnd,
+      quote: quote,
+      token: text.slice(index, close + 1)
+    });
+    if (typeof replacement === 'string' && replacement !== original) {
+      output += text.slice(copied, valueStart) + replacement;
+      copied = valueEnd;
+    }
+    index = close + 1;
+  }
+  return copied ? output + text.slice(copied) : text;
+}
+  function rewriteCssImportTokens(input, mapper) {
+  var text = String(input);
+  var output = '';
+  var copied = 0;
+  var index = 0;
+  var length = text.length;
+  function skipString(position, quote) {
+    position += 1;
+    while (position < length) {
+      if (text[position] === '\\') { position += 2; continue; }
+      if (text[position] === quote) return position + 1;
+      position += 1;
+    }
+    return length;
+  }
+  while (index < length) {
+    if (text[index] === '/' && text[index + 1] === '*') {
+      var commentEnd = text.indexOf('*/', index + 2);
+      index = commentEnd < 0 ? length : commentEnd + 2;
+      continue;
+    }
+    if (text[index] === '"' || text[index] === "'") { index = skipString(index, text[index]); continue; }
+    if (text.slice(index, index + 7).toLowerCase() !== '@import' || /[a-z0-9_-]/i.test(text[index + 7] || '')) { index += 1; continue; }
+    var cursor = index + 7;
+    while (cursor < length && /\s/.test(text[cursor])) cursor += 1;
+    var quote = text[cursor];
+    if (quote !== '"' && quote !== "'") { index = cursor; continue; }
+    var valueStart = cursor + 1;
+    cursor = skipString(cursor, quote);
+    if (cursor > length || text[cursor - 1] !== quote) { index = length; continue; }
+    var valueEnd = cursor - 1;
+    var original = text.slice(valueStart, valueEnd);
+    var replacement = mapper(original, { start: index, valueStart: valueStart, valueEnd: valueEnd, quote: quote });
+    if (typeof replacement === 'string' && replacement !== original) {
+      output += text.slice(copied, valueStart) + replacement;
+      copied = valueEnd;
+    }
+    index = cursor;
+  }
+  return copied ? output + text.slice(copied) : text;
+}
+
+  function resolveCss(value) {
+    if (typeof value !== 'string') return value;
+    function rewrite(raw) {
+      var resolved = normalizeAssetPath(raw.trim());
+      return resolved === raw.trim() ? raw : resolved;
+    }
+    return rewriteCssImportTokens(rewriteCssUrlTokens(value, rewrite), rewrite);
+  }
+
+  function resolveMarkup(value) {
+    if (typeof value !== 'string' || !value) return value;
+    var output = value.replace(/\b(src|href|poster|data)=(["'])(.*?)\2/gi, function(match, attribute, quote, raw) {
+      var resolved = normalizeAssetPath(raw);
+      return attribute + '=' + quote + resolved + quote;
+    });
+    output = output.replace(/\b(srcset|imagesrcset)=(["'])(.*?)\2/gi, function(match, attribute, quote, raw) {
+      var candidates = raw.split(',').map(function(candidate) {
+        var parts = candidate.trim().split(/\s+/);
+        parts[0] = normalizeAssetPath(parts[0]);
+        return parts.join(' ');
+      });
+      return attribute + '=' + quote + candidates.join(', ') + quote;
+    });
+    return output.replace(/\bstyle=(["'])(.*?)\1/gi, function(match, quote, raw) {
+      return 'style=' + quote + resolveCss(raw) + quote;
+    });
+  }
+
+  [['innerHTML', 'set'], ['outerHTML', 'set']].forEach(function(entry) {
+    var descriptor = Object.getOwnPropertyDescriptor(Element.prototype, entry[0]);
+    if (!descriptor || !descriptor.set || !descriptor.get) return;
+    Object.defineProperty(Element.prototype, entry[0], {
+      configurable: true,
+      enumerable: descriptor.enumerable,
+      get: descriptor.get,
+      set: function(value) { return descriptor.set.call(this, resolveMarkup(value)); }
+    });
+  });
+  var insertAdjacentHTML = Element.prototype.insertAdjacentHTML;
+  if (insertAdjacentHTML) Element.prototype.insertAdjacentHTML = function(position, value) {
+    return insertAdjacentHTML.call(this, position, resolveMarkup(value));
+  };
+
+  var setAttribute = Element.prototype.setAttribute;
+  Element.prototype.setAttribute = function (name, value) {
+    var attribute = String(name).toLowerCase();
+    if (attribute === 'src' || attribute === 'href' || attribute === 'poster' || attribute === 'data') value = normalizeAssetPath(value);
+    if (attribute === 'style') value = resolveCss(value);
+    return setAttribute.call(this, name, value);
+  };
+
+  [['HTMLImageElement', 'src'], ['HTMLScriptElement', 'src'], ['HTMLLinkElement', 'href'], ['HTMLSourceElement', 'src'], ['HTMLVideoElement', 'poster'], ['HTMLAudioElement', 'src']].forEach(function (entry) {
+    var Type = window[entry[0]];
+    if (!Type) return;
+    var descriptor = Object.getOwnPropertyDescriptor(Type.prototype, entry[1]);
+    if (!descriptor || !descriptor.set || !descriptor.get) return;
+    Object.defineProperty(Type.prototype, entry[1], {
+      configurable: true,
+      enumerable: descriptor.enumerable,
+      get: descriptor.get,
+      set: function (value) { return descriptor.set.call(this, normalizeAssetPath(value)); }
+    });
+  });
+
+  var originalFetch = window.fetch && window.fetch.bind(window);
+  if (originalFetch) window.fetch = function (input, init) {
+    if (typeof input === 'string') input = normalizeAssetPath(input);
+    else if (input && input.url) input = new Request(normalizeAssetPath(input.url), input);
+    return originalFetch(input, init);
+  };
+
+  var open = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function (method, url) {
+    arguments[1] = normalizeAssetPath(url);
+    return open.apply(this, arguments);
+  };
+
+  var setProperty = CSSStyleDeclaration.prototype.setProperty;
+  CSSStyleDeclaration.prototype.setProperty = function (name, value, priority) {
+    return setProperty.call(this, name, resolveCss(value), priority);
+  };
+})();
+</script>
+  <script data-cloned-rendered-controls>(function(){
+if(window.__CLONED_RENDERED_CONTROLS__)return;
+var descriptors=[{"id":"control-3623c46ade733edf","category":"ORIGINAL_LINK","destination":"https://business.sa/?culture=ar","target":"_blank","operation":null,"runtimePassthrough":false},{"id":"control-b21a051821f273e6","category":"ORIGINAL_LINK","destination":"https://business.sa/?culture=ar","target":"_blank","operation":null,"runtimePassthrough":false},{"id":"control-1d2ae265f2b008fd","category":"PROTECTED_OR_UNSUPPORTED","destination":"","target":"","operation":null,"runtimePassthrough":true},{"id":"control-a3bc1f9ac5af164c","category":"PROTECTED_OR_UNSUPPORTED","destination":"","target":"","operation":null,"runtimePassthrough":true},{"id":"control-9ac47202310a0423","category":"PROTECTED_OR_UNSUPPORTED","destination":"","target":"","operation":null,"runtimePassthrough":true},{"id":"control-396a53c93ed80c99","category":"ORIGINAL_LINK","destination":"https://business.sa/privacy/","target":"","operation":null,"runtimePassthrough":false},{"id":"control-838865364d262d6f","category":"ORIGINAL_LINK","destination":"https://business.sa/terms/","target":"","operation":null,"runtimePassthrough":false},{"id":"control-5e827fae80da79df","category":"ORIGINAL_LINK","destination":"https://business.sa/faqs/","target":"","operation":null,"runtimePassthrough":false}];
+var byId={};descriptors.forEach(function(item){byId[item.id]=item});
+function descriptor(element){return element&&byId[element.getAttribute('data-cloned-control-id')]}
+function target(operation){if(!operation||!operation.targetId)return null;return document.getElementById(operation.targetId)}
+function visible(element,value){if(!element)return;element.hidden=!value;element.classList.toggle('show',value);element.setAttribute('aria-hidden',value?'false':'true')}
+function local(control,item){
+  var operation=item.operation||{},element=target(operation);
+  if(operation.kind==='show-modal'){visible(element,true);if(element)element.focus()}
+  else if(operation.kind==='hide-modal'){visible(control.closest('.modal,[role=dialog]'),false)}
+  else if(operation.kind==='hide-target')visible(element,false);
+  else if(operation.kind==='toggle-dropdown'){element=element||control.nextElementSibling;var expanded=control.getAttribute('aria-expanded')==='true';control.setAttribute('aria-expanded',expanded?'false':'true');visible(element,expanded?false:true)}
+  else if(operation.kind==='toggle-target'){var expanded=control.getAttribute('aria-expanded')==='true';control.setAttribute('aria-expanded',expanded?'false':'true');visible(element,expanded?false:true)}
+  else if(operation.kind==='switch-tab'){var container=control.closest('[role=tablist]')||control.parentElement;if(container)container.querySelectorAll('[role=tab],[data-toggle=tab],[data-bs-toggle=tab]').forEach(function(tab){var active=tab===control;tab.setAttribute('aria-selected',active?'true':'false');tab.setAttribute('tabindex',active?'0':'-1');tab.classList.toggle('active',active);var id=(tab.getAttribute('aria-controls')||(tab.getAttribute('href')||'').replace(/^#/,''));if(id)visible(document.getElementById(id),active)});if(element)visible(element,true)}
+  else if(operation.kind==='scroll-anchor'&&element){element.scrollIntoView();try{history.pushState(history.state,document.title,'#'+encodeURIComponent(operation.targetId))}catch(_){}if(element.focus)element.focus()}
+}
+function activate(event,control,item){
+  if(item.category==='CUSTOM_DOCUMENT_DOWNLOAD')return;
+  if(item.runtimePassthrough)return;
+  if(control.closest&&control.closest('form[data-cloned-journey-login-control]'))return;
+  if(item.category==='PROTECTED_OR_UNSUPPORTED'){event.preventDefault();event.stopPropagation();return}
+  if(item.category==='CAPTURED_LOCAL_NAVIGATION')return;
+  if(item.category==='LOCAL_DOM_ACTION'){if(item.operation&&(item.operation.kind==='native-captured-download'||item.operation.kind==='native-journey-transition'||item.operation.kind==='native-hash-navigation'||item.operation.kind==='native-captured-route'))return;event.preventDefault();event.stopPropagation();local(control,item);return}
+  var nativeLink=control.matches&&control.matches('a[href],area[href]');
+  if(nativeLink)return;
+  event.preventDefault();event.stopPropagation();
+  if(!item.destination)return;
+  if(item.target==='_blank')window.open(item.destination,'_blank','noopener,noreferrer');
+  else location.assign(item.destination);
+}
+document.addEventListener('click',function(event){var control=event.target&&event.target.closest&&event.target.closest('[data-cloned-control-id]');var item=descriptor(control);if(item)activate(event,control,item)},false);
+document.addEventListener('submit',function(event){var item=descriptor(event.target);if(item)activate(event,event.target,item)},false);
+window.__CLONED_RENDERED_CONTROLS__={descriptors:descriptors,installAttempts:1};
+})();</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>المركز السعودي للتنافسية والأعمال</title>
+  <link rel="stylesheet" crossorigin href="css/assets/index-QVNIwH8F.css">
+  <link rel="icon" type="image/svg+xml" href="assets/favicons/selected-c3cb6f13de5226c2.svg">
+  <script type="module" src="js/config/root/env.root--b7132ca431ca0e8d.js"></script>
+  <script type="module" src="js/env--b7132ca431ca0e8d.js"></script>
+  <script type="module" crossorigin src="js/assets/index-CzTOOSTm.js"></script>
+</head>
+<body class="rtl overflow-x-hidden">
+  <div id="root"></div>
+</body>
+</html>
