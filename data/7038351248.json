@@ -1,0 +1,286 @@
+{
+  "data": {
+    "crInformation": {
+      "isRestricted": false,
+      "crNationalNumber": "7038351248",
+      "crNumber": "2511136515",
+      "encryptedCrNumber": "MStmNUpiOEVLVlRXM1hCdjN1aEFQdz09",
+      "ownerNameAr": "مها راجح ناصر الجهني",
+      "ownerNameEn": "MAHA RAJEH NASSER ALJOHANI",
+      "ownerIdentifierNumber": "1129344113",
+      "ownerIdentifierTypeNameAr": "هوية وطنية",
+      "ownerIdentifierTypeNameEn": "National ID",
+      "versionNo": 5,
+      "entityFullNameAr": "مؤسسة امجاد التعمير للمقاولات العامة",
+      "entityFullNameEn": "Amjad Altaamir Establishment For General Contracting",
+      "capital": 5000,
+      "companyDuration": null,
+      "isMain": false,
+      "mainCRNationalNumber": "7016096146",
+      "mainCRNumber": "4700110091",
+      "isLicenseBased": false,
+      "inLiquidationProcess": false,
+      "hasEcommerce": false,
+      "isListed": false,
+      "entityNameLang": {
+        "entityNameLangID": 1,
+        "entityNameLangDescAr": "اللغة العربية",
+        "entityNameLangDescEn": "Arabic Language"
+      },
+      "entityType": {
+        "entityTypeID": 2,
+        "entityTypeDescAr": "مؤسسة",
+        "entityTypeDescEn": "Establishment"
+      },
+      "capitalCurrency": {
+        "capitalCurrencyID": 1,
+        "capitalCurrencyDescAr": "ريال سعودي",
+        "capitalCurrencyDescEn": "Saudi Riyal"
+      },
+      "companyForm": null,
+      "companyCharacterList": [],
+      "partnersNationality": {
+        "partnersNationalityID": 1,
+        "partnersNationalityDescAr": "سعودية",
+        "partnersNationalityDescEn": "Saudi"
+      },
+      "lastModificationDate": {
+        "lastModificationDateGregorian": "2026-05-06",
+        "lastModificationDateHijri": "19-11-1447"
+      },
+      "crIssueDate": {
+        "crIssueDateGregorian": "2024-02-15",
+        "crIssueDateHijri": "05-08-1445"
+      },
+      "crConfirmDate": {
+        "crConfirmDateGregorian": "2027-02-15",
+        "crConfirmDateHijri": "08-09-1448"
+      },
+      "crStatus": {
+        "crStatusID": 1,
+        "crStatusDescAr": "نشط",
+        "crStatusDescEn": "Active"
+      },
+      "crDeleteDate": null,
+      "crDeleteReasons": []
+    },
+    "crActivities": {
+      "fullActivitiesText": null,
+      "activitiesType": {
+        "activitiesTypeID": "2",
+        "activitiesTypeDescriptionAr": "Isic",
+        "activitiesTypeDescriptionEn": "Isic"
+      },
+      "activityList": [
+        {
+          "activityID": "410030",
+          "activityDescriptionAr": "إنشاءات المباني الجاهزة في المواقع",
+          "activityDescriptionEn": "Erection of prefabricated constructions on the site",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "410040",
+          "activityDescriptionAr": "ترميمات المباني السكنية والغير سكنية",
+          "activityDescriptionEn": "remodeling or renovating existing residential and non residential structures",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "471121",
+          "activityDescriptionAr": "الأسواق المركزية للمواد الغذائية والاستهلاكية",
+          "activityDescriptionEn": "Supermarkets for food and consumer goods",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "471131",
+          "activityDescriptionAr": "البقالات",
+          "activityDescriptionEn": "Mini-market",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "471132",
+          "activityDescriptionAr": "التموينات",
+          "activityDescriptionEn": "Grocery store",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "472193",
+          "activityDescriptionAr": "البيع بالتجزئة للوجبات الجاهزة المحفوظة",
+          "activityDescriptionEn": "Retail of preserved food",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "475924",
+          "activityDescriptionAr": "البيع بالتجزئة للمنتجات الخشبية والفلينية والبلاستيكية",
+          "activityDescriptionEn": "Retail sale of wood, cork and plastic products",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "475980",
+          "activityDescriptionAr": "تجارة التجزئة لمعدات السلامة والإطفاء والأمن الصناعي  يشمل تعبئة طفايات الحريق دون إجراء عمليات تحويلية",
+          "activityDescriptionEn": "Retail sale of safety, fire and industrial security equipment including filling of fire extinguishers without transformations",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "477111",
+          "activityDescriptionAr": "البيع بالتجزئة للملابس الجاهزة الرجالية",
+          "activityDescriptionEn": "Retail sale of clothing for men",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492300",
+          "activityDescriptionAr": "النقل البري للبضائع",
+          "activityDescriptionEn": "Freight transport by road",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492301",
+          "activityDescriptionAr": "نقل السلع المبردة والمجمدة",
+          "activityDescriptionEn": "Refrigerated haulage",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492302",
+          "activityDescriptionAr": "نقل البضائع والمعدات النقل الثقيل",
+          "activityDescriptionEn": "Heavy haulage",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492303",
+          "activityDescriptionAr": "نقل الأثاث",
+          "activityDescriptionEn": "Furniture removal",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492304",
+          "activityDescriptionAr": "نقل المواشي",
+          "activityDescriptionEn": "Live animals transport",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492305",
+          "activityDescriptionAr": "نقل السوائل او الغازات السائلة",
+          "activityDescriptionEn": "Bulk haulage, including haulage in tanker trucks",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492306",
+          "activityDescriptionAr": "تأجير الشاحنات مع السائق",
+          "activityDescriptionEn": "Renting of trucks with driver",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492307",
+          "activityDescriptionAr": "نقل السيارات",
+          "activityDescriptionEn": "Haulage of automobiles",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492311",
+          "activityDescriptionAr": "النقل الخفيف",
+          "activityDescriptionEn": "Light transport of goods",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        }
+      ]
+    },
+    "entityAddress": {
+      "addressType": {
+        "addressTypeID": "1",
+        "addressTypeDescriptionAr": "عنوان وطني",
+        "addressTypeDescriptionEn": "National Address"
+      },
+      "nationalAddress": {
+        "city": {
+          "cityId": "14",
+          "cityNameAr": "المدينة المنورة",
+          "cityNameEn": "MADINAH"
+        },
+        "district": {
+          "districtId": "10300014122",
+          "districtNameAr": "حي الفريش",
+          "districtNameEn": "Al Furaysh Dist."
+        },
+        "streetNameAr": "",
+        "streetNameEn": "",
+        "buildingNo": "2194",
+        "unitNo": "5",
+        "postalCode": "46397",
+        "additionalNo": "8391"
+      },
+      "fullAddress": null
+    },
+    "capitalDetails": null,
+    "contactInformation": {
+      "phoneNo": "0135459753",
+      "mobileNo": "0565396975",
+      "email": "nngg1054@gmail.com",
+      "websiteURL": "https://estunholdcr.saudibusiness.gov.sa/journey/dtg1c0fpb1rzohl5mtbxs0ntc0tjctdqwldub0niegphqnvptwhtk1dudgfhc3fkv0nyk0lwoerlstirufpong/"
+    },
+    "mangmentInformation": {
+      "managementStructure": {
+        "managementStructureID": 6,
+        "managementStructureDescriptionAr": "مدير فأكثر",
+        "managementStructureDescriptionEn": "One or More Managers"
+      },
+      "managerList": [
+        {
+          "managerRef": "-",
+          "identifierTypeId": 1,
+          "identifierNumber": "-",
+          "nationalityId": 113,
+          "isLicensed": false,
+          "managerType": {
+            "managerTypeID": 1,
+            "managerTypeDescriptionAr": "فرد سعودي",
+            "managerTypeDescriptionEn": "Citizen"
+          },
+          "personInfo": {
+            "identifierNo": "-",
+            "titleAr": null,
+            "titleEn": null,
+            "firstNameAr": "مها",
+            "fatherNameAr": "راجح",
+            "grandFatherNameAr": "ناصر",
+            "familyNameAr": "الجهني",
+            "firstNameEn": "MAHA",
+            "fatherNameEn": "RAJEH",
+            "grandFatherNameEn": "NASSER",
+            "familyNameEn": "ALJOHANI",
+            "identifierType": {
+              "identifierTypeID": 1,
+              "identifierTypeDescAr": "هوية وطنية",
+              "identifierTypeDescEn": "National ID"
+            },
+            "nationality": {
+              "nationalityID": 113,
+              "nationalityDescriptionAr": "السعودية",
+              "nationalityDescriptionEn": "Saudi Arabia",
+              "isSaudi": true,
+              "isGulf": true
+            }
+          },
+          "managerPositionList": []
+        }
+      ]
+    },
+    "liquidatorList": []
+  },
+  "error": null
+}
