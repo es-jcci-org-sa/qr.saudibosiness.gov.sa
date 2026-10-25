@@ -1,0 +1,248 @@
+{
+  "data": {
+    "crInformation": {
+      "isRestricted": false,
+      "crNationalNumber": "7053016494",
+      "crNumber": null,
+      "encryptedCrNumber": null,
+      "ownerNameAr": null,
+      "ownerNameEn": null,
+      "ownerIdentifierNumber": null,
+      "ownerIdentifierTypeNameAr": null,
+      "ownerIdentifierTypeNameEn": null,
+      "versionNo": 2,
+      "entityFullNameAr": "شركة علي عيد فراج الحراجين الدوسري",
+      "entityFullNameEn": "Ali Eid Farraj Alharajeen Aldosiri Company",
+      "capital": 5000,
+      "companyDuration": 0,
+      "isMain": true,
+      "mainCRNationalNumber": null,
+      "mainCRNumber": null,
+      "isLicenseBased": false,
+      "inLiquidationProcess": false,
+      "hasEcommerce": false,
+      "isListed": false,
+      "entityNameLang": {
+        "entityNameLangID": 1,
+        "entityNameLangDescAr": "اللغة العربية",
+        "entityNameLangDescEn": "Arabic Language"
+      },
+      "entityType": {
+        "entityTypeID": 1,
+        "entityTypeDescAr": "شركة",
+        "entityTypeDescEn": "Company"
+      },
+      "capitalCurrency": {
+        "capitalCurrencyID": 1,
+        "capitalCurrencyDescAr": "ريال سعودي",
+        "capitalCurrencyDescEn": "Saudi Riyal"
+      },
+      "companyForm": {
+        "companyFormID": 1,
+        "companyFormDescriptionAr": "ذات مسؤولية محدودة",
+        "companyFormDescriptionEn": "Limited liability company"
+      },
+      "companyCharacterList": [
+        {
+          "companyCharacterID": 1,
+          "companyCharacterDescriptionAr": "شخص واحد",
+          "companyCharacterDescriptionEn": "One person"
+        }
+      ],
+      "partnersNationality": {
+        "partnersNationalityID": 1,
+        "partnersNationalityDescAr": "سعودية",
+        "partnersNationalityDescEn": "Saudi"
+      },
+      "lastModificationDate": {
+        "lastModificationDateGregorian": "2026-01-27",
+        "lastModificationDateHijri": "08-08-1447"
+      },
+      "crIssueDate": {
+        "crIssueDateGregorian": "2025-12-17",
+        "crIssueDateHijri": "26-06-1447"
+      },
+      "crConfirmDate": {
+        "crConfirmDateGregorian": "2026-12-16",
+        "crConfirmDateHijri": "07-07-1448"
+      },
+      "crStatus": {
+        "crStatusID": 1,
+        "crStatusDescAr": "نشط",
+        "crStatusDescEn": "Active"
+      },
+      "crDeleteDate": null,
+      "crDeleteReasons": []
+    },
+    "crActivities": {
+      "fullActivitiesText": null,
+      "activitiesType": {
+        "activitiesTypeID": "2",
+        "activitiesTypeDescriptionAr": "Isic",
+        "activitiesTypeDescriptionEn": "Isic"
+      },
+      "activityList": [
+        {
+          "activityID": "492300",
+          "activityDescriptionAr": "النقل البري للبضائع",
+          "activityDescriptionEn": "Freight transport by road",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492301",
+          "activityDescriptionAr": "نقل السلع المبردة والمجمدة",
+          "activityDescriptionEn": "Refrigerated haulage",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492302",
+          "activityDescriptionAr": "نقل البضائع والمعدات النقل الثقيل",
+          "activityDescriptionEn": "Heavy haulage",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492303",
+          "activityDescriptionAr": "نقل الأثاث",
+          "activityDescriptionEn": "Furniture removal",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492304",
+          "activityDescriptionAr": "نقل المواشي",
+          "activityDescriptionEn": "Live animals transport",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492305",
+          "activityDescriptionAr": "نقل السوائل او الغازات السائلة",
+          "activityDescriptionEn": "Bulk haulage, including haulage in tanker trucks",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492306",
+          "activityDescriptionAr": "تأجير الشاحنات مع السائق",
+          "activityDescriptionEn": "Renting of trucks with driver",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492307",
+          "activityDescriptionAr": "نقل السيارات",
+          "activityDescriptionEn": "Haulage of automobiles",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        },
+        {
+          "activityID": "492311",
+          "activityDescriptionAr": "النقل الخفيف",
+          "activityDescriptionEn": "Light transport of goods",
+          "isPreLicenseIssued": false,
+          "isPostLicenseIssued": false
+        }
+      ]
+    },
+    "entityAddress": {
+      "addressType": {
+        "addressTypeID": "1",
+        "addressTypeDescriptionAr": "عنوان وطني",
+        "addressTypeDescriptionEn": "National Address"
+      },
+      "nationalAddress": {
+        "city": {
+          "cityId": "3",
+          "cityNameAr": "الرياض",
+          "cityNameEn": "RIYADH"
+        },
+        "district": {
+          "districtId": "10100003139",
+          "districtNameAr": "حي اليرموك",
+          "districtNameEn": "Al Yarmuk Dist."
+        },
+        "streetNameAr": "كوالالمبور",
+        "streetNameEn": "Kualalumpur",
+        "buildingNo": "7603",
+        "unitNo": "8776",
+        "postalCode": "13251",
+        "additionalNo": "2702"
+      },
+      "fullAddress": null
+    },
+    "capitalDetails": {
+      "contributionCapitalDetails": {
+        "capitalType": {
+          "capitalTypeID": 1,
+          "capitalTypeDescriptionAr": "نقدي",
+          "capitalTypeDescriptionEn": "Cash"
+        },
+        "cashCapital": 5000,
+        "inkindCapital": 0,
+        "totalCashContribution": 5000,
+        "totalInkindContribution": 0,
+        "contributionValue": 1
+      },
+      "stockCapitalDetails": null,
+      "stockList": []
+    },
+    "contactInformation": {
+      "phoneNo": "0121368765",
+      "mobileNo": "00966530513478",
+      "email": "aboalshikh030@gmail.com",
+      "websiteURL": null
+    },
+    "mangmentInformation": {
+      "managementStructure": {
+        "managementStructureID": 1,
+        "managementStructureDescriptionAr": "مدير",
+        "managementStructureDescriptionEn": "Manger"
+      },
+      "managerList": [
+        {
+          "managerRef": "-",
+          "identifierTypeId": 1,
+          "identifierNumber": "-",
+          "nationalityId": 113,
+          "isLicensed": false,
+          "managerType": {
+            "managerTypeID": 1,
+            "managerTypeDescriptionAr": "فرد سعودي",
+            "managerTypeDescriptionEn": "Citizen"
+          },
+          "personInfo": {
+            "identifierNo": "-",
+            "titleAr": null,
+            "titleEn": null,
+            "firstNameAr": "علي",
+            "fatherNameAr": "عيد",
+            "grandFatherNameAr": "فراج الحراجين",
+            "familyNameAr": "الدوسري",
+            "firstNameEn": "ALI",
+            "fatherNameEn": "EID",
+            "grandFatherNameEn": "FARRAJ ALHARAJEEN",
+            "familyNameEn": "ALDOSARI",
+            "identifierType": {
+              "identifierTypeID": 1,
+              "identifierTypeDescAr": "هوية وطنية",
+              "identifierTypeDescEn": "National ID"
+            },
+            "nationality": {
+              "nationalityID": 113,
+              "nationalityDescriptionAr": "السعودية",
+              "nationalityDescriptionEn": "Saudi Arabia",
+              "isSaudi": true,
+              "isGulf": true
+            }
+          },
+          "managerPositionList": []
+        }
+      ]
+    },
+    "liquidatorList": []
+  },
+  "error": null
+}
